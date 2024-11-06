@@ -29,7 +29,7 @@ android {
 
     defaultConfig {
         minSdkVersion 16
-
+        namespace 'com.featherbear.flutter_ndi'  // Added namespace here
         ndk {
             abiFilters 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a'
         }
